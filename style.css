@@ -56,14 +56,17 @@ table {
   padding-right: 1vw;
 }
 h6 {
-  font-size: 25px;
-  margin-bottom: 1.5vh;
+  font-size: 40px;
+  margin-bottom: 5.5vh;
 }
 h1 {
-  font-size: 50px;
+  font-size: 80px;
+  margin-top: 3vh;
+  color: #001f4d;
+  margin-bottom: 1vh;
 }
 h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 h2 {
   font-size:30px;
@@ -73,7 +76,7 @@ h1, h2, h3, h5, h6, #nagy {
   text-align:center;
 }
 .header {
-  height: 85vh;
+  height: 100vh;
   text-align: center;
   line-height: 45px;
 }
@@ -109,7 +112,6 @@ img {
   margin-right: 5vw;
 }
 header {
-  background-color: rgba(37, 72, 142, 0.6);
   border-radius: 6px;
   margin-bottom: 2vh;
 }
@@ -128,4 +130,36 @@ header {
   border-radius: 3px;
   margin-right: 2vw;
   margin-top: 2vw;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 30px;
+  }
+  body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/07/16/12/sky-1441936_960_720.jpg);
+  background-size: 800%;
+  background-position: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  #nagy {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .eler {
+    font-size: 18px;
+  }
+  h1 {
+   font-size: 130px; 
+   margin-top: 1vh;
+    margin-bottom: 3vh;
+  }
 }
