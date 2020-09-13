@@ -85,7 +85,7 @@ footer {
 }
 .eler {
 text-align: right;
-  font-size: 15px;
+  font-size: 13px;
     margin-right: 3vw;
 }
 h5 {
@@ -120,13 +120,13 @@ header {
   padding-top: 32.5vh;
 }
 
-.firm, h2, h3,p {
-    font-family: 'Source Serif Pro', serif;
+body {
+    font-family: Nanum Gothic;
 }
 .IM {
   width: 15vh;
   float: right;
-  border-radius: 30px;
+  border-radius: 3px;
   margin-right: 2vw;
   margin-top: 2vw;
 }
@@ -157,7 +157,7 @@ header {
     font-size: 18px;
   }
   h1 {
-   font-size: 130px; 
+   font-size: 100px; 
    margin-top: 1vh;
     margin-bottom: 3vh;
   }
